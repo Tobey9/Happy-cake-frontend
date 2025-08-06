@@ -1,0 +1,49 @@
+.menuCard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  border: 1px solid #ccc;
+
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.imageContainer {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text {
+  padding: 20px 10px;
+}
+
+@media screen and (max-width: 833px) {
+  .menuCard {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .imageContainer {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 677px) {
+  .menuCard {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .imageContainer {
+    height: 180px;
+  }
+}

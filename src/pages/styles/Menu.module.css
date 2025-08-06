@@ -1,0 +1,14 @@
+.menu {
+  padding: 40px 0;
+}
+
+.menu h2 {
+  text-align: center;
+  color: blueviolet;
+}
+
+@media screen and (max-width: 839px) {
+  .menu h2 {
+    font-size: 20px;
+  }
+}

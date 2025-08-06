@@ -1,0 +1,39 @@
+.aboutUs {
+  width: 100vw;
+}
+
+.aboutUs h2 {
+  padding: 20px 0;
+}
+
+.aboutUs p {
+  padding: 10px 20px;
+  line-height: 30px;
+}
+
+.aboutUs h2,
+.aboutUs p {
+  text-align: center;
+}
+
+@media screen and (max-width: 839px) {
+  .aboutUs h2 {
+    font-size: 20px;
+  }
+
+  .aboutUs p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 523px) {
+  .aboutUs h2 {
+    font-size: 18px;
+  }
+
+  .aboutUs p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
